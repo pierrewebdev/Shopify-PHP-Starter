@@ -52,29 +52,6 @@ These third party tools are complemented by Shopify specific tools to ease app d
 1. You must have [Composer](https://getcomposer.org/) installed.
 1. You must have [Node.js](https://nodejs.org/) installed.
 
-### Installing the template
-
-This template runs on Shopify CLI 3.0, which is a node package that can be included in projects. You can install it using your preferred Node.js package manager:
-
-Using yarn:
-
-```shell
-yarn create @shopify/app --template php
-```
-
-Using npx:
-
-```shell
-npm init @shopify/app@latest -- --template php
-```
-
-Using pnpm:
-
-```shell
-pnpm create @shopify/app@latest --template php
-```
-
-This will clone the template and install the CLI in that project.
 
 ### Setting up your Laravel app 
 
@@ -125,6 +102,11 @@ And your Laravel app is ready to run! You can now switch back to your app's root
 ```shell
 cd ..
 ```
+
+Also don't forget to set up a .env file according to the video you were sent.
+You should also set up a separate .env file in the frontend folder and set that app with the Shopify client id of your app like this: 'VITE_SHOPIFY_API_KEY'.
+
+This is needed for the frontend part of the app to connect to App Bridge properly.
 
 ### Local Development
 
