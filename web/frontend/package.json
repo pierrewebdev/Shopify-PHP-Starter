@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "React front end for PHP Shopify App Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formatjs/intl-locale": "^4.2.11",
+    "@formatjs/intl-localematcher": "^0.6.1",
+    "@formatjs/intl-pluralrules": "^5.4.4",
+    "@shopify/app-bridge": "3.7.3",
+    "@shopify/app-bridge-react": "3.2.5",
+    "@shopify/app-bridge-utils": "3.2.5",
+    "@shopify/i18next-shopify": "^0.2.11",
+    "@shopify/polaris": "^11.0.0",
+    "@vitejs/plugin-react": "2.1.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^15.4.1",
+    "react-query": "3.39.2",
+    "react-router-dom": "6.3.0",
+    "vite": "3.1.6",
+    "vite-tsconfig-paths": "3.5.0"
+  },
+  "author": "Code That Converts",
+  "license": "ISC"
+}
